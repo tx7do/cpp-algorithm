@@ -2,8 +2,8 @@
 // Created by YLB on 2022/2/7.
 //
 
-#ifndef CLIONPROJ_INTROSORT_H
-#define CLIONPROJ_INTROSORT_H
+#ifndef CPP_ALGORITHM_INTROSORT_H
+#define CPP_ALGORITHM_INTROSORT_H
 
 #include <algorithm>
 #include <cmath>
@@ -78,4 +78,4 @@ void IntroSort(int arr[], int const begin, int const end) {
     _IntroSort(arr, &left, &right, depthLimit);
 }
 
-#endif //CLIONPROJ_INTROSORT_H
+#endif //CPP_ALGORITHM_INTROSORT_H

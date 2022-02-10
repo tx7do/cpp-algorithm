@@ -2,8 +2,8 @@
 // Created by YLB on 2022/2/6.
 //
 
-#ifndef CLIONPROJ_UTIL_H
-#define CLIONPROJ_UTIL_H
+#ifndef CPP_ALGORITHM_UTIL_H
+#define CPP_ALGORITHM_UTIL_H
 
 void swap(int *xp, int *yp) {
     int temp = *xp;
@@ -40,4 +40,4 @@ void printArray(Iter first, Iter last) {
 }
 
 
-#endif //CLIONPROJ_UTIL_H
+#endif //CPP_ALGORITHM_UTIL_H

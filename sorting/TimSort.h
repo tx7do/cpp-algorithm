@@ -2,8 +2,8 @@
 // Created by YLB on 2022/2/7.
 //
 
-#ifndef CLIONPROJ_TIMSORT_H
-#define CLIONPROJ_TIMSORT_H
+#ifndef CPP_ALGORITHM_TIMSORT_H
+#define CPP_ALGORITHM_TIMSORT_H
 
 #include "InsertionSort.h"
 #include "MergeSort.h"
@@ -43,4 +43,4 @@ void TimSort(int arr[], int const begin, int const end) {
     }
 }
 
-#endif //CLIONPROJ_TIMSORT_H
+#endif //CPP_ALGORITHM_TIMSORT_H

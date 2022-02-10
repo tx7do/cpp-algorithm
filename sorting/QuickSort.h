@@ -2,8 +2,8 @@
 // Created by YLB on 2022/2/7.
 //
 
-#ifndef CLIONPROJ_QUICKSORT_H
-#define CLIONPROJ_QUICKSORT_H
+#ifndef CPP_ALGORITHM_QUICKSORT_H
+#define CPP_ALGORITHM_QUICKSORT_H
 
 #include <algorithm>
 
@@ -30,4 +30,4 @@ void QuickSort(int arr[], int const begin, int const end) {
     }
 }
 
-#endif //CLIONPROJ_QUICKSORT_H
+#endif //CPP_ALGORITHM_QUICKSORT_H

@@ -2,8 +2,8 @@
 // Created by YLB on 2022/2/7.
 //
 
-#ifndef CLIONPROJ_INSERTIONSORT_H
-#define CLIONPROJ_INSERTIONSORT_H
+#ifndef CPP_ALGORITHM_INSERTIONSORT_H
+#define CPP_ALGORITHM_INSERTIONSORT_H
 
 #include <algorithm>
 
@@ -20,4 +20,4 @@ void InsertionSort(int arr[], int const begin, int const end) {
     }
 }
 
-#endif //CLIONPROJ_INSERTIONSORT_H
+#endif //CPP_ALGORITHM_INSERTIONSORT_H

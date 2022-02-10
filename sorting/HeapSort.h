@@ -2,8 +2,8 @@
 // Created by YLB on 2022/2/7.
 //
 
-#ifndef CLIONPROJ_HEAPSORT_H
-#define CLIONPROJ_HEAPSORT_H
+#ifndef CPP_ALGORITHM_HEAPSORT_H
+#define CPP_ALGORITHM_HEAPSORT_H
 
 #include <algorithm>
 
@@ -39,4 +39,4 @@ void HeapSort(int arr[], int const begin, int const end) {
 }
 
 
-#endif //CLIONPROJ_HEAPSORT_H
+#endif //CPP_ALGORITHM_HEAPSORT_H

@@ -2,8 +2,8 @@
 // Created by YLB on 2022/2/9.
 //
 
-#ifndef CLIONPROJ_STRANDSORT_H
-#define CLIONPROJ_STRANDSORT_H
+#ifndef CPP_ALGORITHM_STRANDSORT_H
+#define CPP_ALGORITHM_STRANDSORT_H
 
 #include <list>
 
@@ -38,4 +38,4 @@ void StrandSort(int arr[], int const begin, int const end) {
     }
 }
 
-#endif //CLIONPROJ_STRANDSORT_H
+#endif //CPP_ALGORITHM_STRANDSORT_H

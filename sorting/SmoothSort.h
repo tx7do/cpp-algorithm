@@ -2,8 +2,8 @@
 // Created by YLB on 2022/2/9.
 //
 
-#ifndef CLIONPROJ_SMOOTHSORT_H
-#define CLIONPROJ_SMOOTHSORT_H
+#ifndef CPP_ALGORITHM_SMOOTHSORT_H
+#define CPP_ALGORITHM_SMOOTHSORT_H
 
 #include <algorithm>
 #include <functional>
@@ -161,4 +161,4 @@ void SmoothSort(Iter first, Iter last, Compare cmp = Compare()) {
     }
 }
 
-#endif //CLIONPROJ_SMOOTHSORT_H
+#endif //CPP_ALGORITHM_SMOOTHSORT_H

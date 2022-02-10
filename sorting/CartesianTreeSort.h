@@ -2,8 +2,8 @@
 // Created by YLB on 2022/2/6.
 //
 
-#ifndef _LIONPROJ_CARTESIAN_TREE_H
-#define _LIONPROJ_CARTESIAN_TREE_H
+#ifndef CPP_ALGORITHM_CARTESIAN_TREE_H
+#define CPP_ALGORITHM_CARTESIAN_TREE_H
 
 #include <iostream>
 #include <vector>
@@ -107,20 +107,20 @@ struct compare {
     }
 };
 
-class CartesianTree {
+class CartesianTreeSort {
 private:
     Node *root, *last;
 
 public:
-    explicit CartesianTree() : root(nullptr), last(nullptr) {
+    explicit CartesianTreeSort() : root(nullptr), last(nullptr) {
     }
 
-    explicit CartesianTree(const IntVector &arr) : root(nullptr), last(nullptr) {
+    explicit CartesianTreeSort(const IntVector &arr) : root(nullptr), last(nullptr) {
         insertByLowestNodes(arr.begin(), arr.end());
     }
 
-    CartesianTree(const IntVector::const_iterator &begin, const IntVector::const_iterator &end) : root(nullptr),
-                                                                                                  last(nullptr) {
+    CartesianTreeSort(const IntVector::const_iterator &begin, const IntVector::const_iterator &end) : root(nullptr),
+                                                                                                      last(nullptr) {
         insertByLowestNodes(begin, end);
     }
 
@@ -248,7 +248,7 @@ public:
 
 template<typename Iter, typename Compare = std::less<>>
 void CartesianTreeSort(Iter first, Iter last, Compare cmp = Compare()) {
-    CartesianTree tree(first, last);
+    CartesianTreeSort tree(first, last);
 
     IntVector sorted;
     tree.sort(sorted);

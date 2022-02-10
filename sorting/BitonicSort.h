@@ -2,8 +2,8 @@
 // Created by YLB on 2022/2/8.
 //
 
-#ifndef CLIONPROJ_BITONICSORT_H
-#define CLIONPROJ_BITONICSORT_H
+#ifndef CPP_ALGORITHM_BITONICSORT_H
+#define CPP_ALGORITHM_BITONICSORT_H
 
 #include<bits/stdc++.h>
 
@@ -60,4 +60,4 @@ void BitonicSort(int arr[], int const begin, int const end, const bool dir = tru
     bitonicSort(arr, 0, cnt, dir);
 }
 
-#endif //CLIONPROJ_BITONICSORT_H
+#endif //CPP_ALGORITHM_BITONICSORT_H

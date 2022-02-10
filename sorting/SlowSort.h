@@ -2,8 +2,8 @@
 // Created by YLB on 2022/2/6.
 //
 
-#ifndef CLIONPROJ_SLOWSORT_H
-#define CLIONPROJ_SLOWSORT_H
+#ifndef CPP_ALGORITHM_SLOWSORT_H
+#define CPP_ALGORITHM_SLOWSORT_H
 
 #include <algorithm>
 
@@ -22,4 +22,4 @@ void SlowSort(int arr[], int const begin, int const end) {
     SlowSort(arr, begin, end - 1);
 }
 
-#endif //CLIONPROJ_SLOWSORT_H
+#endif //CPP_ALGORITHM_SLOWSORT_H

@@ -2,8 +2,8 @@
 // Created by YLB on 2022/2/7.
 //
 
-#ifndef CLIONPROJ_MERGESORT_H
-#define CLIONPROJ_MERGESORT_H
+#ifndef CPP_ALGORITHM_MERGESORT_H
+#define CPP_ALGORITHM_MERGESORT_H
 
 void merge(int array[], int const left, int const mid, int const right) {
     auto const subArrayOne = mid - left + 1;
@@ -58,4 +58,4 @@ void MergeSort(int array[], int const begin, int const end) {
     merge(array, begin, mid, end);
 }
 
-#endif //CLIONPROJ_MERGESORT_H
+#endif //CPP_ALGORITHM_MERGESORT_H

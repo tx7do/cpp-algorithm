@@ -2,8 +2,8 @@
 // Created by YLB on 2022/2/6.
 //
 
-#ifndef CLIONPROJ_STOOGESORT_H
-#define CLIONPROJ_STOOGESORT_H
+#ifndef CPP_ALGORITHM_STOOGESORT_H
+#define CPP_ALGORITHM_STOOGESORT_H
 
 #include <algorithm>
 
@@ -25,4 +25,4 @@ void StoogeSort(int arr[], int const begin, int const end) {
     }
 }
 
-#endif //CLIONPROJ_STOOGESORT_H
+#endif //CPP_ALGORITHM_STOOGESORT_H

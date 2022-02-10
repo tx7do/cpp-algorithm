@@ -2,8 +2,8 @@
 // Created by YLB on 2022/2/7.
 //
 
-#ifndef CLIONPROJ_BUCKETSORT_H
-#define CLIONPROJ_BUCKETSORT_H
+#ifndef CPP_ALGORITHM_BUCKETSORT_H
+#define CPP_ALGORITHM_BUCKETSORT_H
 
 #include <algorithm>
 #include <iostream>
@@ -32,4 +32,4 @@ void BucketSort(float arr[], int const begin, int const end) {
 }
 
 
-#endif //CLIONPROJ_BUCKETSORT_H
+#endif //CPP_ALGORITHM_BUCKETSORT_H

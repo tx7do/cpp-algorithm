@@ -1,7 +1,7 @@
 #include <iostream>
 
 #include "sorting/Util.h"
-#include "sorting/CartesianTree.h"
+#include "sorting/CartesianTreeSort.h"
 #include "sorting/SlowSort.h"
 #include "sorting/StoogeSort.h"
 #include "sorting/HeapSort.h"
@@ -255,7 +255,7 @@ void testCartesianTree() {
                          62, 53, 23, 93, 41, 95, 84, 88};
 
         {
-            CartesianTree tree1;
+            CartesianTreeSort tree1;
 
             tree1.insertByLowestNodes(arr.begin(), arr.end());
 
@@ -266,7 +266,7 @@ void testCartesianTree() {
         }
 
         {
-            CartesianTree tree2;
+            CartesianTreeSort tree2;
 
             tree2.insertByRightMosts(arr.begin(), arr.end());
 
